@@ -21,22 +21,25 @@ The platform is built with **Streamlit** for a clean and user-friendly interface
 
 ## 📂 Project Structure
 
-PROJECT_STROKE/
+MediAI-platefrome/
 │── datasets/
 │   └── dataset/
 │       └── healthcare-dataset-stroke-data.csv     # Stroke dataset
 │
+
 │── models/
 │   ├── brain_tumor_model_v2.h5                    # CNN model for tumor detection
-│   ├── tr_model_best.sav                          # SVM model for stroke prediction
+│   ├── tr_model_best.sav                          # CatBoost model for stroke prediction
 │   ├── brain_tumor.ipynb                          # Notebook (tumor training/experiments)
 │   ├── stroke.ipynb                               # Notebook (stroke training/experiments)
 │   └── test.png                                   # Sample MRI test image
 │                                        
 │
+
 │── utils/
 │   └── extractor.py                               # Image preprocessing utilities
 │
+
 │── brain_tumor.py                                 # Tumor detection script
 │── stroke.py                                      # Stroke prediction script
 │── main.py                                        # Streamlit application (MediAI Platform)
