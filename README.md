@@ -116,10 +116,10 @@ Then open your browser at [http://localhost:8501](http://localhost:8501) 🌐
 ## 📊 Screenshots
 
 ### Stroke Risk Assessment
-![Stroke Module](utils/Screenshot 2025-09-23 223734.png)
+![Stroke Module](utils/Screenshot%202025-09-23%20223734.png)
 
 ### Brain Tumor Detection
-![Tumor Module](utils/Screenshot 2025-09-23 223759.png)
+![Tumor Module](utils/Screenshot%202025-09-23%20223759.png)
 
 ---
 
