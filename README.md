@@ -1,9 +1,14 @@
 # 🧠 MediAI Platform
 
+📝 Abstract
+
+The early detection of critical health conditions such as brain tumors and strokes plays a vital role in reducing mortality rates and improving patient outcomes. Traditionally, brain tumor classification is performed through invasive procedures such as biopsies, often conducted only during or after surgery. Non-invasive alternatives like magnetic resonance imaging (MRI) remain the standard diagnostic tool, but interpretation is highly dependent on radiologist expertise and can be influenced by subjectivity.
+With the improvement of artificial intelligence and machine learning , automated systems can assist clinicians by providing faster, objective, and more accurate predictions. For brain tumor detection, convolutional neural networks (CNNs) have shown remarkable performance in medical image classification. 
+
 MediAI is an **AI-powered healthcare assistant** that provides two core modules:  
 
-- 🏥 **Stroke Risk Assessment** → Predicts the likelihood of a patient experiencing a stroke using clinical and lifestyle data.  
-- 🩺 **Brain Tumor Detection** → Analyzes MRI images with deep learning models to detect tumors.  
+- 🏥 **Stroke Risk Assessment** → Predicts the likelihood of a patient experiencing a stroke using clinical and lifestyle data using real time data.  
+- 🩺 **Brain Tumor Detection** → Analyzes MRI images with a CNN model to detect brain tumors with high accuracy.  
 
 The platform is built with **Streamlit** for a clean and user-friendly interface.  
 
@@ -11,7 +16,7 @@ The platform is built with **Streamlit** for a clean and user-friendly interface
 
 ## ✨ Features
 
-✅ Stroke prediction using a trained **SVM model** (`.sav`)  
+✅ Stroke prediction using a trained **CatBoost model** (`.sav`)  
 ✅ Brain tumor detection using a **CNN model** (`.h5`)  
 ✅ Modern dashboard interface with **tabs and cards**  
 ✅ Real-time medical predictions with simple input forms  
@@ -90,7 +95,7 @@ MediAI-platefrome/
 Run the Streamlit app:
 
 ```bash
-streamlit run mediAI_app.py
+streamlit run main.py
 ```
 
 Then open your browser at [http://localhost:8501](http://localhost:8501) 🌐  
